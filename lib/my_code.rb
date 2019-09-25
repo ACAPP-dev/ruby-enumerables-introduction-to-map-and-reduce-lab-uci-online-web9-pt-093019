@@ -67,6 +67,18 @@ end
 # reduce_to_all_true(array1)
 #reduce_to_all_true(array1)
 
-#def reduce_to_any_true(array)
- # i = 0 
-  #while array[i] do
+def reduce_to_any_true(array)
+  i = 0 
+  while i < array.length do
+    if array[i] == true
+      return true
+    end
+    i += 1 
+  end
+  return false
+end
+
+  
+  
+  
+  
