@@ -53,12 +53,14 @@ def reduce_to_all_true(array)
   while i < array.length do
     if array[i] == false    
        puts " #{array[i]} is truthy"
+       return false
     end
   puts "This is second #{array[i]}"
   i += 1 
   end
   puts "after while #{array[i]}"
-  #return false  
+  return true  
+  
 
 end
 
