@@ -46,19 +46,19 @@ def reduce_to_total(array, starting_point=0)
   array_total
 end
 
-array1 = [true, 1, false]
+#array1 = [true, 1, false]
 
 def reduce_to_all_true(array)
   i=0 
   while i < array.length do
     if array[i] == false    
-       puts " #{array[i]} is truthy"
+       #puts " #{array[i]} is truthy"
        return false
     end
-  puts "This is second #{array[i]}"
+  #puts "This is second #{array[i]}"
   i += 1 
   end
-  puts "after while #{array[i]}"
+  #puts "after while #{array[i]}"
   return true  
   
 
