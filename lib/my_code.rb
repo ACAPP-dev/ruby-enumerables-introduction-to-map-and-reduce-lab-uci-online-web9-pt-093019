@@ -50,7 +50,7 @@ array1 = [true, 1, false]
 
 def reduce_to_all_true(array)
   i=0 
-  while array[i] do
+  while array[i] < length.array do
     if array[i] == false    
        puts " #{array[i]} is truthy"
     end
@@ -65,6 +65,6 @@ end
 # reduce_to_all_true(array1)
 reduce_to_all_true(array1)
 
-def reduce_to_any_true(array)
-  i = 0 
-  while array[i] do
+#def reduce_to_any_true(array)
+ # i = 0 
+  #while array[i] do
