@@ -65,7 +65,7 @@ def reduce_to_all_true(array)
 end
 
 # reduce_to_all_true(array1)
-reduce_to_all_true(array1)
+#reduce_to_all_true(array1)
 
 #def reduce_to_any_true(array)
  # i = 0 
